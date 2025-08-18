@@ -1,7 +1,7 @@
 
 # For The First Demo
 
-A brief description of what this project does and who it's for
+After covering security algorithms, this demo shows how they come together in cryptocurrencies—hash → block → blockchain, with nonce, distribution, keys, and signatures.
 
 
 ## 🛠 resources
