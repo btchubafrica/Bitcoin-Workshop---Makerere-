@@ -1,43 +1,47 @@
 # Bitcoin-Workshop for Makerere
 
-here is the first draf for the days sessions 
+Here is the first draft for the sessions.  
 
+---
 
 ## Sessions on
 
 ## Day I
-| No | Technical     | Description                |
-| :-------- | :------- | :------------------------- |
-| I | Security & privacy Tools | demo |
-| II | Public key & private Key | demo |
-| III | Hash function Hash256| demo |
-| IV | Blockchain Technology| demo |
-| V | Demo | demo |
+| No | Technical | Description |
+| :-- | :-------- | :----------- |
+| I  | Security & Privacy Tools | Practical demo of privacy-enhancing apps & techniques |
+| II | Public & Private Keys | Generating and using keys securely |
+| III | Hash Function (SHA-256) | Hands-on hashing examples |
+| IV | Blockchain Technology | Step-by-step blockchain structure demo |
+| V  | Demo | Putting it all together in a mini exercise |
 
+---
 
-| No | Technical     | Description                |
-| :-------- | :------- | :------------------------- |
-| I | Security & Privacy Mindset | demo |
-| II | Security & Private Tools| demo |
-| III | Evolution of Money| demo |
-| IV | Introduction to Bitcoin| demo |
-| V | Signers/Wallets Demo *seed phrase management| demo |
+| No | Technical | Description |
+| :-- | :-------- | :----------- |
+| I  | Security & Privacy Mindset | Why privacy matters (interactive discussion) |
+| II | Security & Private Tools | Using encrypted messaging & password managers |
+| III | Evolution of Money | Story of money → digital money → Bitcoin |
+| IV | Introduction to Bitcoin | Bitcoin basics and network overview |
+| V  | Signers/Wallets (Seed Phrase Management) | Creating, backing up, and restoring wallets |
 
-
+---
 
 ## Day II
-| No | Nontechnical     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| I      | Wallet | demo |
-| II      | Transaction | demo |
-| III      | Blockchain transaction | demo |
-| IV      | Regtest Demo | demo |
+| No | Technical | Description |
+| :-- | :-------- | :----------- |
+| I  | Wallets | Creating, loading, and managing Bitcoin wallets |
+| II | Transactions | Sending, receiving, and inspecting Bitcoin transactions |
+| III | Blockchain Transactions | How transactions are confirmed and stored |
+| IV | Regtest Demo | Local blockchain for safe testing |
 
-| No | Nontechnical     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| I      | Recap | demo |
-| II      | Coin Control UTXO man| demo |
-| III      | Lightning Network | demo |
-| IV      | Block Explorer | demo |
-| V      | Bitcoin Mining | demo |
-| VI      | Demo | demo |
+---
+
+| No | Nontechnical | Description |
+| :-- | :----------- | :----------- |
+| I  | Recap | Quick review of Day I concepts |
+| II | Coin Control & UTXO Management | How to manage coins and optimize transactions |
+| III | Lightning Network | Introduction and demo of instant payments |
+| IV | Block Explorer | Viewing transactions on the blockchain |
+| V  | Bitcoin Mining | How mining works + small mining demo |
+| VI | Demo | Final combined exercise with wallets & transactions |
