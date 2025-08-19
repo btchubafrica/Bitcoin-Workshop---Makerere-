@@ -196,6 +196,10 @@ List transactions:
 ```sh
 ./bitcoin-cli -regtest -rpcwallet=mywallet1 listtransactions
 ```
+useful sites to check
+https://developer.bitcoin.org/reference/rpc/
+https://thunderbiscuit.github.io/Learning-Bitcoin-from-the-Command-Line/01_0_Introduction.html
+https://lightningpolar.com/
 ## Whats Next
 Want to contribute? Great!
 
