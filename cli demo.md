@@ -112,6 +112,66 @@ txindex=1
 #need a part , 19832
 
 ```
+
+### `bitcoin.conf` (Mainnet)
+```conf
+# Bitcoin Mainnet Configuration File
+[main]
+
+# Run Bitcoin Core as a background process (daemon mode)
+daemon=1
+
+# Data directory where blockchain data will be stored
+datadir=/blockchain/.bitcoin/mainnet
+
+# RPC settings (used to connect from CLI, apps, or services)
+rpcport=8332
+rpcbind=127.0.0.1
+rpcallowip=127.0.0.1
+rpcuser=mainuser
+rpcpassword=mainpass
+
+# Wallet (enable to use wallet functionality)
+wallet=1
+
+# Enable full transaction index (for explorers or advanced queries)
+txindex=1
+
+# Connection settings
+maxconnections=125
+maxuploadtarget=1000
+maxmempool=300
+
+# Memory usage for DB cache (MB)
+dbcache=3000
+
+# Logging options
+logtimestamps=1
+debug=mempool
+debug=rpc
+
+# Fees
+minrelaytxfee=0.0001
+fallbackfee=0.0002
+
+# Optional: require confirmations for spending
+blockconfirmations=6
+
+# Optional: Restrict peers (use only if running private node)
+# connect=
+# whitelist=
+
+# Reduce log file size on restarts
+shrinkdebuglog=1
+
+# Optional: enable pruning (to save space)
+# prune=550
+
+# Default network mode (mainnet)
+mainnet=1
+
+
+```
 ## Story Line
 
 > lets create two wallets
